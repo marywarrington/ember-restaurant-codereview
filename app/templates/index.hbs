@@ -1,5 +1,11 @@
 <h1>Restaurant Review Site</h1>
 
-{{#each model.restaurants as |restaurant|}}
-  {{restaurant-tile restaurant=restaurant}}
+{{#each model as |restaurant|}}
+  {{restaurant.name}}
 {{/each}}
+
+
+
+
+
+<!-- {{restaurant-tile restaurant=restaurant}} -->

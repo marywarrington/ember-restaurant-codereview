@@ -1,14 +1,14 @@
 <div>
   <h2>{{model.name}}</h2>
+  <h4>{{model.address}}</h4>
   <h4>Cuisine: {{model.cuisine}}</h4>
-  <p>{{model.address}}</p>
 </div>
 
 <!-- <button class="btn btn-primary"{{action 'addToCart' model}}>Add to Cart</button> -->
-<!-- <div>
+<div>
   <h3>Reviews</h3>
   {{#each model.reviews as |review|}}
-    {{item-review review=review}}
+    {{review-tile review=review}}
   {{/each}}
-  {{new-review save="save" product=model}}
-</div> -->
+  <!-- {{new-review save="save" restaurant=model}} -->
+</div>

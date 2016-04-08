@@ -11,5 +11,8 @@ export default Ember.Component.extend({
     addToFavorites(model) {
       this.get('restaurants').add(model);
     },
+    removeFromFavorites(model) {
+      this.get('restaurants').remove(model);
+    }
   }
 });

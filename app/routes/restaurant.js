@@ -20,6 +20,10 @@ export default Ember.Route.extend({
 
     addToFavorites(restaurant) {
       this.get('favoriteRestaurants').add(restaurant);
+    },
+
+    removeFromFavorites(restaurant) {
+      this.get('favoriteRestaurants').remove(restaurant);
     }
   }
 });

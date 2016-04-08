@@ -5,5 +5,8 @@ export default Ember.Service.extend({
 
   add(restaurant) {
     this.get('restaurants').pushObject(restaurant);
+  },
+  remove(restaurant) {
+    this.get('restaurants').removeObject(restaurant);
   }
 });

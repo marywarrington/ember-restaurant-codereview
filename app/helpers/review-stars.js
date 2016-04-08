@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
-export function reviewStars(params) {
-  var starRating = params[0].get('rating');
+export function reviewStars(review) {
+  var starRating = review[0].get('rating');
   console.log(starRating);
   if (starRating === "five") {
       return Ember.String.htmlSafe('<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>');

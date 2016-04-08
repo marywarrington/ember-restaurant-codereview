@@ -13,6 +13,7 @@ export default Ember.Component.extend({
         restaurant: this.get('restaurant'),
         rating: parseInt(this.get('rating'))
       };
+      console.log(params);
       this.set('addNewReview', false);
       this.sendAction('save', params);
     }

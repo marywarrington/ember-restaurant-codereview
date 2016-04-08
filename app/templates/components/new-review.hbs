@@ -21,9 +21,10 @@
           {{#x-option value='1'}}&#9733;{{/x-option}}
         {{/x-select}}
       </div>
-      <button {{action 'save'}}>Save</button>
+      <button class="btn btn-primary" {{action 'save'}}>Save</button>
     </form>
 
 {{else}}
-  <button {{action 'showReviewForm'}}>New Review</button>
+  <hr>
+  <button class="btn btn-primary" {{action 'showReviewForm'}}>New Review</button>
 {{/if}}

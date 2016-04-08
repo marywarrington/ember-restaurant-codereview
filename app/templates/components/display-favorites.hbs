@@ -1,3 +1,3 @@
 {{#each favoriteRestaurants.restaurants as |restaurant|}}
-  {{restaurant.name}}
+  <h2>{{#link-to 'restaurant' restaurant.id}}{{restaurant.name}}{{/link-to}}</h2>
 {{/each}}

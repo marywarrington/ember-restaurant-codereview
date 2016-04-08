@@ -3,7 +3,7 @@
 
 ### By _**Mary Warrington**_
 
-This project is built in Ember and allows users view restaurant information, add reviews, add new restaurants, and add restaurants to a list of their favorites.
+This project is built in Ember and allows users view restaurant information, add reviews, add new restaurants, and add restaurants to (or remove from) a list of their favorites.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ You will need the following things properly installed on your computer.
 
 ## Known Bugs
 
-* Currently, the helper to display star ratings is not working.
+* Currently, the helper to display star ratings only works on the first load. After a refresh, the rating is undefined and returns one star only.
 
 ## Contact
 

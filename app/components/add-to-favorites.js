@@ -6,6 +6,6 @@ export default Ember.Component.extend({
   actions: {
     addToFavorites(model) {
       this.get('restaurants').add(model);
-    },
+    }
   }
 });

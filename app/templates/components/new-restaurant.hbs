@@ -1,0 +1,25 @@
+{{#if addRestaurant}}
+<h1>New Restaurant</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Restaurant Name</label>
+        {{input value=name id="name"}}
+      </div>
+
+      <div class="form-group">
+        <label for="cuisine">Cuisine</label>
+        {{input value=cuisine id="cuisine"}}
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        {{input value=address id="address"}}
+      </div>
+
+      <button class="btn btn-warning" {{action 'save'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-warning" {{action 'restaurantFormShow'}} >Add New Restaurant</button>
+{{/if}}

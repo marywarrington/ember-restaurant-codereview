@@ -28,19 +28,19 @@
     "0" : {
     "reviewer": "Mary",
     "review": "Teote is the best place for tasty arepas and a great patio! Try the spicy margarita!",
-    "rating": 4,
+    "rating": "four",
     "restaurant": "0"
   },
   "1" : {
     "reviewer": "John",
     "review": "Grain and Gristle is the only place I go for a tasty burger!",
-    "rating": 5,
+    "rating": "five",
     "restaurant": "1"
   },
   "2" : {
     "reviewer": "Matt",
     "review": "Pretty good breakfast! I love that they have coffee in the waiting area!",
-    "rating": 3,
+    "rating": "three",
     "restaurant": "2"
     }
   }

@@ -11,7 +11,7 @@ export default Ember.Component.extend({
         reviewer: this.get('reviewer'),
         review: this.get('review'),
         restaurant: this.get('restaurant'),
-        rating: parseInt(this.get('rating'))
+        rating: this.get('rating')
       };
       console.log(params);
       this.set('addNewReview', false);

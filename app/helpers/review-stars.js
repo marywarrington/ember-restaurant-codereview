@@ -1,15 +1,16 @@
 import Ember from 'ember';
 
 export function reviewStars(params) {
-  var reviewRating = params.get('rating');
+  console.log(params);
+  var starRating = params.get('rating');
 
-  if (reviewRating === "5") {
+  if (starRating === "five") {
       return Ember.String.htmlSafe('<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>');
-  } else if (reviewRating === "4") {
+  } else if (starRating === "four") {
       return Ember.String.htmlSafe('<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>');
-  } else if (reviewRating === 3) {
+  } else if (starRating === "three") {
       return Ember.String.htmlSafe('<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>');
-  } else if (reviewRating === 2) {
+  } else if (starRating === "two") {
       return Ember.String.htmlSafe('<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>');
   } else {
       return Ember.String.htmlSafe('<span class="glyphicon glyphicon-star"></span>');

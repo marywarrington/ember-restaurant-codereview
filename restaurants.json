@@ -1,0 +1,47 @@
+{ "restaurants": {
+  "0": {
+    "name": "Teote Areperia",
+    "address": "1615 SE 12th Avenue",
+    "cuisine": "Latin American/Venezuelan",
+    "reviews": {
+        "0": true
+      }
+  },
+  "1" : {
+    "name": "Grain & Gristle",
+    "address": "1473 NE Prescott Street",
+    "cuisine": "New American",
+    "reviews": {
+      "1": true
+      }
+    } ,
+    "2" : {
+    "name": "Jam on Hawthorne",
+    "address": "2239 SE Hawthorne Blvd",
+    "cuisine": "American Breakfasts",
+    "reviews": {
+      "2": true
+      }
+    }
+  },
+  "reviews": {
+    "0" : {
+    "reviewer": "Mary",
+    "review": "Teote is the best place for tasty arepas and a great patio! Try the spicy margarita!",
+    "rating": "4",
+    "restaurant": "0"
+  },
+  "1" : {
+    "reviewer": "John",
+    "review": "Grain and Gristle is the only place I go for a tasty burger!",
+    "rating": "5",
+    "restaurant": "1"
+  },
+  "2" : {
+    "reviewer": "Matt",
+    "review": "Pretty good breakfast! I love that they have coffee in the waiting area!",
+    "rating": "3",
+    "restaurant": "2"
+    }
+  }
+}
